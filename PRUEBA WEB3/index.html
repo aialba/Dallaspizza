@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PizzaEco - La Mejor Pizza Sostenible</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="icon" type="image/png" href="IMG_inici/LOGO.png" >
+  <style>
+    .hero {
+      background-image: url('https://example.com/path-to-your-pizza-image.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .hero .title, .hero .subtitle {
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+    .section-padding {
+      padding: 3rem 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<section class="hero is-fullheight-with-navbar">
+  <div class="hero-head">
+    <nav class="navbar" style="background-color: lightcoral;">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <img src="IMG_inici/LOGO.png"  style="color: white; border-radius: 50%;" alt="PizzaEco">
+          </a>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="#" style="color: rgb(0, 0, 0);">Inici</a>
+            <a class="navbar-item" href="#servicios" style="color: rgb(0, 0, 0);">Serveis</a>
+            <a class="navbar-item" href="#sobre-nosotros" style="color: rgb(0, 0, 0);">Sobre Nosaltres</a>
+            <a class="navbar-item" href="#contacto" style="color: rgb(0, 0, 0);">Contacte</a>
+          </div>
+          <div class="navbar-end">
+            <a class="navbar-item" href="iniciar o registrar.html" style="color: rgb(0, 0, 0);">Iniciar Sesió o Registrarse</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+<section class="hero is-primary is-medium" id="inici">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title" style="color: #000;">
+          Benvinguts a Dallas Pizza
+        </h1>
+      </div>
+    </div>
+  </section>
+  <style>
+    @media screen and (min-width: 769px), print {
+      .hero.is-medium .hero-body {
+        padding: 8rem 4.5rem;
+        background-color: lightcoral;
+        color: #000;
+      }
+    }
+  </style>
+</body>
+</html>
+</body>
+<style>
+  #scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 170%;
+  }
+  #scrollToTop:hover {
+    background-color: lightgoldenrodyellow;
+  }
+</style>
+<button id="scrollToTop" class="button is-primary">
+  ↑
+</button>
+
+<script>
+  // JavaScript para mostrar/ocultar el botón y hacer scroll hacia arriba
+  const scrollToTopButton = document.getElementById('scrollToTop');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      scrollToTopButton.style.display = 'flex';
+    } else {
+      scrollToTopButton.style.display = 'none';
+    }
+  });
+
+  scrollToTopButton.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
+</html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.columna {
+width: 50%;
+float: left;
+box-sizing: border-box;
+padding: 15px;
+}
+
+.fila::after {
+content: "";
+clear: both;
+display: table;
+}
+</style>
+</head>
+<body>
+  <center>
+<h1 style="color: #000;background-color: lightcoral; font-size: 170%;"><b>Promocions i Ofertes</b></h1>
+</center>
+<div  class="color" style="background-color: lightcoral;">
+<br>
+</div>
+<div class="columns" style="background-color:  lightcoral;">
+<!-- Primera columna -->
+<div class="column" style="color: #000000;">
+<h1><b><i><u>3X2 Pizzas</u></i></b></h1>
+<p>Pots demanar les pizzes de la teva preferencia pero amb aquesta promocio podries pagar dugues i emportarte una de gratis.</p>
+<img src="IMG_inici/oferta 1o.png">
+</div>
+<!-- Segunda columna -->
+<div class="column" style="color: black;">
+<h1><b><i><u>Menu Per a 2</u></i></b></h1>
+<p>una pizza, dugues vegudes a la teva elecció i dugues racions de patates per 17,99€</p>
+<img src="IMG_inici/oferta 1.png">
+</div>
+<!-- Tercera columna -->
+<div class="column" style="color: black;">
+<h1><b><i><u>Descomptes</u></i></b></h1>
+<p> Comptem amb descomptes per:</p>
+<br>
+<p><b>- Familia numerosa:</b> Enseñant la targeta o donant alguna prova de la familia numerosa. Tindries un descompte de 25%</p>
+<br>
+<p><b>- Discapacitat:</b> Enseñant la targeta o donant alguna prova de la discapacitat. Tindries un descompte de 20%</p>
+<br>
+<p><b>- Per primera compra:</b>- Per primera compra: si es la primera vegada que compres en la nostra pizzeria tendries un 10% de descompte en la seva comptra </p>
+</div>
+</div>
+<div class="fila">
+<center>
+<h1 style="color: #000;">Horari</h1>
+<style>
+table {
+border-collapse: collapse;
+width: 100%;
+left: 100px;
+right: 1000px;
+background-color: lightgoldenrodyellow;
+
+}
+
+th, td {
+border: 1px solid #000000;
+text-align: center;
+padding: 8px;
+}
+
+th {
+background-color: lightcoral;
+}
+.text-center{
+left: 10px
+}
+</style>
+</head>
+<body>
+<div class="texto" style="color: black;">
+<div class="text-center">
+<table>
+<thead>
+<tr>
+  <th></th>
+  <th>Matí</th>
+  <th>Tarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Dilluns</td>
+  <td> De 12:00 a.m a 15:00 p.m</td>
+  <td> De 20:00 p.m a 23:00 p.m</td>
+</tr>
+<tr>
+  <td>Dimarts</td>
+  <td>De 12:00 a.m a 15:00 p.m</td>
+  <td>De 20:00 p.m a 23:00 p.m</td>
+</tr>
+<tr>
+  <td>Dimecres</td>
+  <td>De 12:00 a.m a 15:00 p.m</td>
+  <td>De 20:00 p.m a 23:00 p.m</td>
+</tr>
+<tr>
+  <td>Dijous</td>
+  <td>De 12:00 a.m a 15:00 p.m</td>
+  <td>De 20:00 p.m. to 23:00 p.m</td>
+</tr>
+<tr>
+  <td>Divendres</td>
+  <td>De 12:00 a.m a 15:00 p.m</td>
+  <td>De 20:00 p.m. to 23:00 p.m</td>
+</tr>
+<tr>
+  <td>Disabte</td>
+  <td>De 12:00 a.m a 15:00 p.m</td>
+  <td>De 20:00 p.m. to 23:00 p.m</td>
+</tr>
+<tr>
+  <td>Diumenge</td>
+  <td>De 12:00 a.m a 15:00 p.m</td>
+  <td>De 20:00 p.m. to 23:00 p.m</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>
+</div>
+</div>
+</div>
+</center>
+</section>
+
+<!-- Sección de Servicios -->
+<section id="servicios" class="section section-padding">
+  <div class="container">
+    <h2 class="title has-text-centered">Els Nostres Serveis</h2>
+    <section class="section">
+        <div class="container" style="width: 200%;">
+          <center>
+          <h1 class="title">Productes Disponibles</h1>
+        </center>
+        <br>
+          <div class="columns">
+            <div class="column">
+              <div class="box" style="background-color: lightcoral;">
+                <h2 class="title is-5">Pizza de pernil dolç i formatge</h2>
+                <figure class="image is-square">
+                <img src="IMG_serveis/pizza-jamon-york-y-queso.jpg" style=" width: 100%;
+                height: auto; object-fit: cover;">
+              </figure>
+                <p style="color: black;">Masa,Tomaquet, Formatge Mozzarella, Pernil Dolç</p>
+                <p style="color: black;">Precio: 11.50€</p>
+                <button class="button is-primary add-to-cart" data-product="Pizza de Pernil Dolç i Formatge" data-price="11.50">Afagir a la Cesta</button>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box" style="background-color: lightcoral;">
+                <h2 class="title is-5">Pizza de peperoni</h2>
+                <figure class="image is-square">
+                <img src="IMG_serveis/pizza-de-peperoni.jpg" style=" width: 100%;
+                height: auto; object-fit: cover;">
+              </figure>
+                <p style="color: black;">Masa,Tomaquet, Formatge Mozzarella, Peperoni</p>
+                <p style="color: black;">Precio: 15.00€</p>
+                <button class="button is-primary add-to-cart" data-product="Pizza de Peperoni" data-price="15.00">Afagir a la Cistella</button>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box" style="background-color: lightcoral;">
+                <h2 class="title is-5">Pizza 4 Formatges</h2>
+                <figure class="image is-square">
+                <img src="IMG_serveis/4quesos.jpg" style=" width: 100%;
+                height: auto; object-fit: cover;">
+              </figure>
+                <p style="color: black;">Masa, Tomaquet, Formatge Mozzarella, Formatge Blau, Formatge Cheddar, Formatge Parmesano.</p>
+                <p style="color: black;">Precio: 20.00€</p>
+                <button class="button is-primary add-to-cart" data-product="Pizza 4 Formatges" data-price="20.00">Afagir a la Cistella</button>
+              </div>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <div class="box" style="background-color: lightcoral;">
+                <h2 class="title is-5">Pizza Carbonara</h2>
+                <figure class="image is-square">
+                <img src="IMG_serveis/pizza-carbonara.jpg" style=" width: 100%;
+                height: auto; object-fit: cover;">
+              </figure>
+                <p style="color: black;">Masa, Tomaquet, Bacon, champiñóns, salsa carbonara, formatge per a fondre</p>
+                <p style="color: black;">Precio: 20.00€</p>
+                <button class="button is-primary add-to-cart" data-product="Pizza Carbonara" data-price="20.00">Afagir a la Cistella</button>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box" style="background-color: lightcoral;">
+                <h2 class="title is-5">Pizza Barbacoa</h2>
+                <figure class="image is-square">
+                <img src="IMG_serveis/pizza barbacoa.jpg" style=" width: 100%;
+                height: auto; object-fit: cover;">
+              </figure>
+                <p style="color: black;">Masa, Tomaquet, Formatge Motsarella, Salsa Barbacoa, Bacon, Pernil Dolç</p>
+                <p style="color: black;">Precio: 15.25€</p>
+                <button class="button is-primary add-to-cart" data-product="Pizza Barbacoa" data-price="15.25">Afagir a la Cistella</button>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box" style="background-color: lightcoral;">
+                <h2 class="title is-5">Pizza Vegetariana</h2>
+                <figure class="image is-square">
+                <img src="IMG_serveis/vegetariana.jpg" style=" width: 100%;
+                height: auto; object-fit: cover;">
+              </figure>
+                <p style="color: black;">Masa, Tomaquet, Formatge Motsarella, Pebrot i Olives Negres</p>
+                <p style="color: black;">Precio: 15.90€</p>
+                <button class="button is-primary add-to-cart" data-product="Pizza Vegetariana" data-price="15.90">Afagir a la Cistella</button>
+              </div>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <div class="box" style="background-color: lightcoral;">
+                <h2 class="title is-5">Pizza bacon crispy</h2>
+                <figure class="image is-square">
+                <img src="IMG_serveis/pizza-bacon-crispy.jpg" style=" width: 100%;
+                height: auto; object-fit: cover;">
+              </figure>
+                <p>Masa, Tomaquet, Formatge Motsarella i Bacon</p>
+                <p>Precio: 15.50€</p>
+                <button class="button is-primary add-to-cart" data-product="Pizza bacon crispy" data-price="15.50">Afagir a la Cistella</button>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box" style="background-color: lightcoral;">
+                <h2 class="title is-5">Pizza Margarita</h2>
+                <figure class="image is-square">
+                <img src="IMG_serveis/pizza-margarita.jpg" style=" width: 100%;
+                height: auto; object-fit: cover;">
+              </figure>
+                <p style="color: black;"> Masa, Tomaquet, Formatge Motsarella, Albahaca</p>
+                <p style="color: black;">Precio: 10.00€</p>
+                <button class="button is-primary add-to-cart" data-product="Pizza Margarita" data-price="10.00">Afagir a la Cistella</button>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box" style="background-color: lightcoral;">
+                <h2 class="title is-5">Pizza Caprichosa</h2>
+                <figure class="image is-square">
+                <img src="IMG_serveis/caprichosa.jpg" style=" width: 100%;
+                height: auto; object-fit: cover;">
+              </figure>
+                <p style="color: black;">Masa, Tomaquet, Formatge Motsarella, Olives Negres, Albahaca, Alcachofas i 
+                  Salsitxa Picant</p>
+                <p style="color: black;">Precio: 25.00€</p>
+                <button class="button is-primary add-to-cart" data-product="Pizza Caprichosa" data-price="25.00">Afagir a la Cistella</button>
+              </div>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <div class="box" style="background-color: lightcoral;">
+                <h2 class="title is-5">Calzone</h2>
+                <figure class="image is-square">
+                <img src="IMG_serveis/calzone.jpg" style=" width: 100%;
+                height: auto; object-fit: cover;">
+              </figure>
+                <p style="color: black;">Masa, Tomaquet, Pernil Dolç, Formatge Motsarella i ortegan</p>
+                <p style="color: black;">Precio: 10.00€</p>
+                <button class="button is-primary add-to-cart" data-product="Calzone" data-price="10.00">Afagir a la Cistella</button>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box" style="background-color: lightcoral;">
+                <h2 class="title is-5">Pizza Brownie</h2>
+                
+                <img src="IMG_serveis/pizza dulce.jpg"style=" width: 100%;
+                height: auto; object-fit: cover;">
+              </figure>
+                <p style="color: black;">Masa de Brownie, Chocolata Blanca, Chocolata amb Llet, Chocolata Negre, Kiwi, Meduixa, Platan, Carmel, Oreo, Atmetlles, Lacasitos, Kinder Bueno</p>
+                <p style="color: black;">Precio: 30.00€</p>
+                <button class="button is-primary add-to-cart" data-product="Pizza Brownie" data-price="30.00">Afagir a la Cistella</button>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box" style="background-color: lightcoral;">
+                <h2 class="title is-5">Pizza Chocolate</h2>
+                <figure class="image is-square">
+                <img src="IMG_serveis/images.jpg"style=" width: 100%;
+                height: auto; object-fit: cover;">
+              </figure>
+                <p style="color: black;">Masa, nocilla i Chocolata Blanca</p>
+                <p style="color: black;">Precio: 15.00€</p>
+                <button class="button is-primary add-to-cart" data-product="Pizza de Chocolata" data-price="15.00">Afagir a la Cistella</button>
+              </div>
+            </div>
+          </div>
+          <center>
+          <h1 class="title">Cistella de la Compra</h1>
+        </center>
+          <div id="cart-items">
+            <!-- Aquí se mostrarán los elementos de la cesta -->
+          </div>
+          <div class="columns is-centered">
+            <div class="column is-half">
+              <div class="box" style="background-color: lightcoral;">
+                <h2 class="title is-4" style="color: black;">Total</h2>
+                <p id="cart-total" style="color: black;">Total: $0.00</p>
+                <button class="button is-success is-fullwidth">Realizar Pago</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const addToCartButtons = document.querySelectorAll('.add-to-cart');
+          const cartItemsContainer = document.getElementById('cart-items');
+          const cartTotalElement = document.getElementById('cart-total');
+          let cartTotal = 0;
+      
+          addToCartButtons.forEach(button => {
+            button.addEventListener('click', function() {
+              const product = this.getAttribute('data-product');
+              const price = parseFloat(this.getAttribute('data-price'));
+              cartTotal += price;
+      
+              const cartItem = document.createElement('div');
+              cartItem.classList.add('box');
+              cartItem.innerHTML = `
+                <h2 class="title is-5">${product}</h2>
+                <p>Precio: $${price.toFixed(2)}</p>
+                <button class="button is-danger remove-from-cart">Eliminar de la Cesta</button>
+              `;
+      
+              cartItemsContainer.appendChild(cartItem);
+              cartTotalElement.textContent = `Total: $${cartTotal.toFixed(2)}`;
+      
+              const removeFromCartButtons = cartItemsContainer.querySelectorAll('.remove-from-cart');
+              removeFromCartButtons.forEach(removeButton => {
+                removeButton.addEventListener('click', function() {
+                  const itemPrice = parseFloat(this.parentNode.querySelector('p').textContent.replace('Precio: $', ''));
+                  cartTotal -= itemPrice;
+                  cartTotalElement.textContent = `Total: $${cartTotal.toFixed(2)}`;
+                  this.parentNode.remove();
+                });
+              });
+            });
+          });
+        });
+      </script>
+      <center>
+      <h1><b style="font-size: larger;">Per temes de duptes d'alergens trucar al 734-98-54-24</b></h1>
+    </center>
+</section>
+
+<!-- Sección Sobre Nosotros -->
+<section id="sobre-nosotros" class="section section-padding">
+    <div class="container">
+      <h2 class="title has-text-centered">Sobre Nosaltres</h2>
+<style>
+body {
+    background-color: #f8f9fa;
+    height: 700px;
+}
+.section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    height: 1400px;
+}
+.title {
+    color: #4a4a4a;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.subtitle {
+    color: #6c757d;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.values-list {
+    margin-bottom: 20px;
+}
+.values-list li {
+    margin-bottom: 10px;
+}
+.mission {
+    margin-top: 20px;
+}
+.image-wrapper {
+    text-align: center;
+    margin-top: 40px;
+}
+.image-wrapper img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+</style>
+</head>
+<body>
+
+    <h2 class="subtitle">Nuestra Historia</h2>
+    <p>Somos una pizzería apasionada por ofrecer experiencias culinarias auténticas y deliciosas. Desde nuestra humilde apertura hace 2 meses en el corazón de la ciudad, nos hemos comprometido a proporcionar a nuestros clientes las pizzas más frescas y sabrosas, elaboradas con ingredientes de la más alta calidad.</p>
+
+    <h2 class="subtitle">Nuestros Valores</h2>
+    <ul class="values-list">
+        <li><strong>Calidad:</strong> Utilizamos solo los mejores ingredientes frescos y locales en nuestras pizzas.</li>
+        <center>
+        <img src="IMG_sobre nosaltres/ingredientes de calidad.jpg" alt="Pizzería Delizia">
+      </center>
+        <li><strong>Autenticidad:</strong> Nos mantenemos fieles a las recetas y técnicas tradicionales de la cocina italiana.</li>
+        <center>
+          <img src="IMG_sobre nosaltres/pizza italiana.jpg" alt="Pizzería Delizia">
+        </center>
+        <li><strong>Servicio al Cliente:</strong> Nos esforzamos por brindar un servicio amable y atento a cada persona que visita nuestra pizzería.</li>
+        <center>
+          <img src="IMG_sobre nosaltres/servicio al cliente.jpg" alt="Pizzería Delizia">
+        </center>
+        <li><strong>Comunidad:</strong> Valoramos nuestra relación con la comunidad y nos comprometemos a ser un miembro activo y solidario.</li>
+        <center>
+          <img src="IMG_sobre nosaltres/comunidad.jpg" alt="Pizzería Delizia" style="height: 200px; width: 250px;">
+        </center>
+      </ul>
+      <h2 class="subtitle">Nuestra Misión</h2>
+      <p class="mission">En Pizzería Delizia, nuestra misión es simple: deleitar a nuestros clientes con pizzas excepcionales y un servicio excepcional. Nos esforzamos por crear un ambiente acogedor y familiar donde amigos y familias puedan reunirse para disfrutar de una comida deliciosa y compartir momentos inolvidables. Con cada pizza que servimos, buscamos llevar un pedacito de Italia a la mesa de nuestros clientes y crear experiencias que perduren en el tiempo.</p>
+  </div>
+</div>
+</section>
+<div class="fila">
+          <center>
+            <h1 style="color: #000;" ><b>Horari d'atenció al client</b></h1>
+            <style>
+            table {
+              border-collapse: collapse;
+              width: 100%;
+              left: 100px;
+              right: 1000px;
+              background-color: lightgoldenrodyellow;
+             
+            }
+        
+            th, td {
+              border: 1px solid #000000;
+              text-align: center;
+              padding: 8px;
+            }
+        
+            th {
+              background-color: lightcoral;
+            }
+            .text-center{
+              left: 10px
+            }
+          </style>
+        </head>
+        <body>
+          <div class="texto" style="color: black;">
+            <div class="text-center">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Matí</th>
+                <th>Tarde</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Dilluns</td>
+                <td> De 12:00 a.m a 15:00 p.m</td>
+                <td> De 20:00 p.m a 23:00 p.m</td>
+              </tr>
+              <tr>
+                <td>Dimarts</td>
+                <td>De 12:00 a.m a 15:00 p.m</td>
+                <td>De 20:00 p.m a 23:00 p.m</td>
+              </tr>
+              <tr>
+                <td>Dimecres</td>
+                <td>De 12:00 a.m a 15:00 p.m</td>
+                <td>De 20:00 p.m a 23:00 p.m</td>
+              </tr>
+              <tr>
+                <td>Dijous</td>
+                <td>De 12:00 a.m a 15:00 p.m</td>
+                <td>De 20:00 p.m. to 23:00 p.m</td>
+              </tr>
+              <tr>
+                <td>Divendres</td>
+                <td>De 12:00 a.m a 15:00 p.m</td>
+                <td>De 20:00 p.m. to 23:00 p.m</td>
+              </tr>
+              <tr>
+                <td>Disabte</td>
+                <td>De 12:00 a.m a 15:00 p.m</td>
+                <td>De 20:00 p.m. to 23:00 p.m</td>
+              </tr>
+              <tr>
+                <td>Diumenge</td>
+                <td>De 12:00 a.m a 15:00 p.m</td>
+                <td>De 20:00 p.m. to 23:00 p.m</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </body>
+        </html>
+          </div>
+        </div>
+        </div>
+        </center>
+ 
+<br>
+</div>
+<center>
+
+<!-- Sección de Contacto -->
+<section id="contacto" class="section section-padding">
+  <div class="container">
+    <h2 class="title has-text-centered" style="color: #000;">Contacte</h2>
+    <form id="contact-form" action="confirmation.html" method="post">
+        <div class="field">
+          <label class="label" style="color: #000;">Nom</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Nom" required>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label" style="color: #000;">Congnoms</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Congnoms" required>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label" style="color: #000;">Correu Electrónic</label>
+          <div class="control">
+            <input class="input" type="email" placeholder="Correu Electrónic" required >
+          </div>
+        </div>
+        <div class="field">
+          <label class="label" style="color: #000;">Telefon</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Telefon" required>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label" style="color: #000;">Missatge</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Missatge" required></textarea>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <button class="button is-primary" type="submit">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Pie de Página -->
+<center>
+    <div class="footer" style="background-color: lightcoral; color: rgb(0, 0, 0);">
+      <footer><p>Copyright 2024©</p></footer>
+      <br>
+      <footer><p>Contáctans al 734-98-54-24 o envía un correo a dallaspizza@gmail.com</p></footer>
+      <footer>Estem situats a c/sants n/125, Barcelona, Catalunya, Espanya. Amb codi postal: 08007</footer>
+    <footer>
+    <div class="foto">
+      <img src="IMG_Footer/insta-removebg-preview.png" style="height: 5%; width: 5%;"><p>@DALLASPIZZA</P>
+      <img src="IMG_Footer/facebook-removebg-preview.png" style="height: 5%; width: 5%;"><P>@DALLASPIZZA</P>
+      <img src="IMG_Footer/tiktok-removebg-preview.png" style="height: 5%; width: 5%;"><P>@DALLASPIZZA</P>
+      <img src="IMG_Footer/twitter-removebg-preview.png" style="height: 5%; width: 5%;"><P>@DALLASPIZZA</P>
+    </div>
+    </footer>
+    </div>
+            </div>
+          </center>  
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
+      });
+    }
+  });
+</script>
+
+</body>
+</html>
